@@ -160,14 +160,25 @@ Visualización en SCADA
 Generación de alertas
 
 -------------------Capturas del sistema------------------
-Próximamente se incorporarán capturas de:
 
-- Dashboard principal.
-- Monitoreo de nodos.
-- Visualización de métricas.
-- Estados generados por Machine Learning.
-- Proceso de validación.
-- Resultados obtenidos durante las pruebas.
+### Dashboard principal
+
+Vista general del sistema SCADA y de la arquitectura utilizada para integrar el ESP32, FastAPI, PostgreSQL y el análisis mediante Machine Learning.
+
+![Dashboard principal](docs/screenshots/dashboard-principal.png)
+
+### Monitoreo de nodos y análisis mediante IA
+
+Vista comparativa de los nodos monitoreados, mostrando latencia, pérdida de paquetes, RSSI, estado técnico mediante reglas y análisis complementario mediante Isolation Forest.
+
+![Monitoreo de nodos y análisis mediante IA](docs/screenshots/monitoreo-nodos-ia.png)
+
+### Validación científica del sistema
+
+Módulo utilizado para ejecutar sesiones controladas de validación en condiciones normales y bajo perturbaciones planificadas.
+
+![Validación científica del sistema](docs/screenshots/validacion-cientifica.png)
+
 
 Resultados
 
